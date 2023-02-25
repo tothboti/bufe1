@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top:200%;
+    scroll-behavior: smooth;
+    box-sizing:border-box ;
+    list-style:none;
+    text-decoration: none;
+    }
+    .container{
+        max-width: 1086px;
+        margin:auto;
+        width: 100%;
+    }
+    section{
+        padding: 64px 0 48px;
+    }
+    header{
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 1px 4px hsl(0 4% 15% /10% ) ;
+    }
+    .nav{
+        display: flex;
+        align-items: center ;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:white;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display:block;
+        color:black;
+        text-align: center;
+        padding: 14px 64px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color:whitesmoke;
+      }
+      .logo{
+        font-size: 17px;
+        color:black;
+        font-weight: 400;
+      }
+      #cart-icon{
+        font-size:28px ;
+        cursor: pointer;
+      }
+     
+      
+      .section-title{
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        padding: 32px;
+      }
+      .shop-content{
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(220px,auto)) ;
+        gap: 0.5rem;
+    }
+    .section-title{
+        font-size:1.5rem;
+        font-weight: 600;
+        text-align: center;
+        color: black;
+        margin-bottom: 1.5rem;
+    }
+    .shop{
+        margin-top: 2rem;
+    }
+    .product-box{
+        position: relative;
+    }
+    .product-box:hover{
+        padding: 10px;
+        border: 1px solid black;
+        transition: 0.4s ;
+    }
+    .img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.5rem;
+    
+    }
+    .product-tiltle{
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        color: black;
+    }
+    .price{
+        font-weight: 500;
+        color: black;
+    }
+    .add-cart{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color:white ;
+        color:black;
+        padding: 10px;
+        cursor: pointer;
+    }
